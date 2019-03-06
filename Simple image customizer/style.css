@@ -1,0 +1,37 @@
+:root{
+	--base: #ff2d2d;
+	--spacing: 20px;
+	--blur: 3px;
+}
+
+img{
+	display: block;
+	margin-top: 2%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+
+	padding: var(--spacing);
+	background: var(--base);
+	filter: blur(var(--blur));
+
+}
+
+h1{
+	text-align: center;
+	font-family: 'Staatliches', cursive;
+	letter-spacing: 3px;
+	font-size: 50px;
+}
+.h2{
+
+	color: var(--base);
+}
+
+.controls{
+	text-align: center;
+}
+
+body{
+	background-image: url('bg.jpg');
+}

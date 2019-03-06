@@ -1,0 +1,44 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	position: relative;
+}
+
+h2{
+	font-family: 'Lobster', cursive;
+	letter-spacing: 2px;
+	font-size: 50px;
+	text-align: center;
+}
+
+#raspberry{
+	color: #f40062;
+}
+
+canvas{
+	position: absolute;
+}
+
+button{
+	padding: 2% 4%;
+	border-radius: 50%;
+	outline: none;
+	border-style: none;
+	cursor: pointer;
+	display: block;
+	position: absolute;
+	bottom: 3%;
+	left: 3%;
+	background-color: #ff3385;
+	transition: background-color 0.5s;
+	font-size: 23px;
+	font-family: 'Lobster', cursive;
+}
+
+button:hover{
+	background-color: #f0066c;
+}
+
